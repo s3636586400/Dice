@@ -1,0 +1,15 @@
+//
+//  DicePhoto.pch
+//  DicePhoto
+//
+//  Created by s3636586400 on 16/9/1.
+//  Copyright © 2016年 MaskIsland. All rights reserved.
+//
+
+#ifndef DicePhoto_pch
+#define DicePhoto_pch
+
+#import <UIKit/UIKit.h>
+#import "AppMacro.h"
+
+#endif /* DicePhoto_pch */

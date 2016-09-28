@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E35C981D78144B00C1962A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35C971D78144B00C1962A /* main.m */; };
+		41E35C9B1D78144B00C1962A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35C9A1D78144B00C1962A /* AppDelegate.m */; };
+		41E35CA31D78144B00C1962A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E35CA21D78144B00C1962A /* Assets.xcassets */; };
+		41E35CA61D78144B00C1962A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E35CA41D78144B00C1962A /* LaunchScreen.storyboard */; };
+		41E35CB11D78144B00C1962A /* DicePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35CB01D78144B00C1962A /* DicePhotoTests.m */; };
+		41E35CC51D78165100C1962A /* MIDiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35CC41D78165100C1962A /* MIDiceController.m */; };
+		41E35CCA1D78191300C1962A /* MIDiceMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35CC91D78191300C1962A /* MIDiceMaker.m */; };
+		41E35CCF1D78350F00C1962A /* UIView+ColorOfPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35CCE1D78350F00C1962A /* UIView+ColorOfPoint.m */; };
+		41E35CD21D7837F600C1962A /* MIDicePhotoMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E35CD11D7837F600C1962A /* MIDicePhotoMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41E35CAD1D78144B00C1962A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E35C8B1D78144B00C1962A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E35C921D78144B00C1962A;
+			remoteInfo = DicePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41E35C931D78144B00C1962A /* DicePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E35C971D78144B00C1962A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41E35C991D78144B00C1962A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41E35C9A1D78144B00C1962A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41E35CA21D78144B00C1962A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41E35CA51D78144B00C1962A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41E35CA71D78144B00C1962A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E35CAC1D78144B00C1962A /* DicePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E35CB01D78144B00C1962A /* DicePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DicePhotoTests.m; sourceTree = "<group>"; };
+		41E35CB21D78144B00C1962A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E35CC31D78165100C1962A /* MIDiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDiceController.h; sourceTree = "<group>"; };
+		41E35CC41D78165100C1962A /* MIDiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDiceController.m; sourceTree = "<group>"; };
+		41E35CC81D78191300C1962A /* MIDiceMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDiceMaker.h; sourceTree = "<group>"; };
+		41E35CC91D78191300C1962A /* MIDiceMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDiceMaker.m; sourceTree = "<group>"; };
+		41E35CCB1D781A1300C1962A /* DicePhoto.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicePhoto.pch; sourceTree = "<group>"; };
+		41E35CCC1D781A5100C1962A /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		41E35CCD1D78350F00C1962A /* UIView+ColorOfPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ColorOfPoint.h"; sourceTree = "<group>"; };
+		41E35CCE1D78350F00C1962A /* UIView+ColorOfPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ColorOfPoint.m"; sourceTree = "<group>"; };
+		41E35CD01D7837F600C1962A /* MIDicePhotoMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDicePhotoMaker.h; sourceTree = "<group>"; };
+		41E35CD11D7837F600C1962A /* MIDicePhotoMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDicePhotoMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E35C901D78144B00C1962A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E35CA91D78144B00C1962A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E35C8A1D78144B00C1962A = {
+			isa = PBXGroup;
+			children = (
+				41E35C951D78144B00C1962A /* DicePhoto */,
+				41E35CAF1D78144B00C1962A /* DicePhotoTests */,
+				41E35C941D78144B00C1962A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41E35C941D78144B00C1962A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E35C931D78144B00C1962A /* DicePhoto.app */,
+				41E35CAC1D78144B00C1962A /* DicePhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E35C951D78144B00C1962A /* DicePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				41E35CBB1D7815AB00C1962A /* Classes */,
+				41E35C991D78144B00C1962A /* AppDelegate.h */,
+				41E35C9A1D78144B00C1962A /* AppDelegate.m */,
+				41E35CA21D78144B00C1962A /* Assets.xcassets */,
+				41E35CA41D78144B00C1962A /* LaunchScreen.storyboard */,
+				41E35CA71D78144B00C1962A /* Info.plist */,
+				41E35C961D78144B00C1962A /* Supporting Files */,
+			);
+			path = DicePhoto;
+			sourceTree = "<group>";
+		};
+		41E35C961D78144B00C1962A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E35C971D78144B00C1962A /* main.m */,
+				41E35CCB1D781A1300C1962A /* DicePhoto.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41E35CAF1D78144B00C1962A /* DicePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				41E35CB01D78144B00C1962A /* DicePhotoTests.m */,
+				41E35CB21D78144B00C1962A /* Info.plist */,
+			);
+			path = DicePhotoTests;
+			sourceTree = "<group>";
+		};
+		41E35CBB1D7815AB00C1962A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41E35CC61D78190100C1962A /* Helper */,
+				41E35CC71D78190100C1962A /* Macro */,
+				41E35CBC1D7815AB00C1962A /* Controller */,
+				41E35CBD1D7815AB00C1962A /* Model */,
+				41E35CBE1D7815AB00C1962A /* View */,
+				41E35CBF1D7815AB00C1962A /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		41E35CBC1D7815AB00C1962A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41E35CC31D78165100C1962A /* MIDiceController.h */,
+				41E35CC41D78165100C1962A /* MIDiceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41E35CBD1D7815AB00C1962A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41E35CBE1D7815AB00C1962A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41E35CBF1D7815AB00C1962A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41E35CC61D78190100C1962A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				41E35CC81D78191300C1962A /* MIDiceMaker.h */,
+				41E35CC91D78191300C1962A /* MIDiceMaker.m */,
+				41E35CD01D7837F600C1962A /* MIDicePhotoMaker.h */,
+				41E35CD11D7837F600C1962A /* MIDicePhotoMaker.m */,
+				41E35CCD1D78350F00C1962A /* UIView+ColorOfPoint.h */,
+				41E35CCE1D78350F00C1962A /* UIView+ColorOfPoint.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		41E35CC71D78190100C1962A /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				41E35CCC1D781A5100C1962A /* AppMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E35C921D78144B00C1962A /* DicePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E35CB51D78144B00C1962A /* Build configuration list for PBXNativeTarget "DicePhoto" */;
+			buildPhases = (
+				41E35C8F1D78144B00C1962A /* Sources */,
+				41E35C901D78144B00C1962A /* Frameworks */,
+				41E35C911D78144B00C1962A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DicePhoto;
+			productName = DicePhoto;
+			productReference = 41E35C931D78144B00C1962A /* DicePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41E35CAB1D78144B00C1962A /* DicePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E35CB81D78144B00C1962A /* Build configuration list for PBXNativeTarget "DicePhotoTests" */;
+			buildPhases = (
+				41E35CA81D78144B00C1962A /* Sources */,
+				41E35CA91D78144B00C1962A /* Frameworks */,
+				41E35CAA1D78144B00C1962A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E35CAE1D78144B00C1962A /* PBXTargetDependency */,
+			);
+			name = DicePhotoTests;
+			productName = DicePhotoTests;
+			productReference = 41E35CAC1D78144B00C1962A /* DicePhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E35C8B1D78144B00C1962A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MI;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MaskIsland;
+				TargetAttributes = {
+					41E35C921D78144B00C1962A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K5JHG79E8M;
+					};
+					41E35CAB1D78144B00C1962A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 41E35C921D78144B00C1962A;
+					};
+				};
+			};
+			buildConfigurationList = 41E35C8E1D78144B00C1962A /* Build configuration list for PBXProject "DicePhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41E35C8A1D78144B00C1962A;
+			productRefGroup = 41E35C941D78144B00C1962A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E35C921D78144B00C1962A /* DicePhoto */,
+				41E35CAB1D78144B00C1962A /* DicePhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41E35C911D78144B00C1962A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E35CA61D78144B00C1962A /* LaunchScreen.storyboard in Resources */,
+				41E35CA31D78144B00C1962A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E35CAA1D78144B00C1962A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E35C8F1D78144B00C1962A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E35C9B1D78144B00C1962A /* AppDelegate.m in Sources */,
+				41E35CC51D78165100C1962A /* MIDiceController.m in Sources */,
+				41E35CCF1D78350F00C1962A /* UIView+ColorOfPoint.m in Sources */,
+				41E35C981D78144B00C1962A /* main.m in Sources */,
+				41E35CD21D7837F600C1962A /* MIDicePhotoMaker.m in Sources */,
+				41E35CCA1D78191300C1962A /* MIDiceMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E35CA81D78144B00C1962A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E35CB11D78144B00C1962A /* DicePhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E35CAE1D78144B00C1962A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E35C921D78144B00C1962A /* DicePhoto */;
+			targetProxy = 41E35CAD1D78144B00C1962A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41E35CA41D78144B00C1962A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E35CA51D78144B00C1962A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41E35CB31D78144B00C1962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41E35CB41D78144B00C1962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E35CB61D78144B00C1962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K5JHG79E8M;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DicePhoto/DicePhoto.pch";
+				INFOPLIST_FILE = DicePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskisland.DicePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41E35CB71D78144B00C1962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K5JHG79E8M;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DicePhoto/DicePhoto.pch";
+				INFOPLIST_FILE = DicePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskisland.DicePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41E35CB91D78144B00C1962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DicePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskisland.DicePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DicePhoto.app/DicePhoto";
+			};
+			name = Debug;
+		};
+		41E35CBA1D78144B00C1962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DicePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskisland.DicePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DicePhoto.app/DicePhoto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E35C8E1D78144B00C1962A /* Build configuration list for PBXProject "DicePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E35CB31D78144B00C1962A /* Debug */,
+				41E35CB41D78144B00C1962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E35CB51D78144B00C1962A /* Build configuration list for PBXNativeTarget "DicePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E35CB61D78144B00C1962A /* Debug */,
+				41E35CB71D78144B00C1962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E35CB81D78144B00C1962A /* Build configuration list for PBXNativeTarget "DicePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E35CB91D78144B00C1962A /* Debug */,
+				41E35CBA1D78144B00C1962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E35C8B1D78144B00C1962A /* Project object */;
+}
