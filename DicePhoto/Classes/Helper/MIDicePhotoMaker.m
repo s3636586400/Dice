@@ -35,6 +35,7 @@
 - (void)setDice {
     self.dices    = [[NSMutableArray alloc] init];
     if (![UIImage imageNamed:[PATH_OF_DOCUMENT stringByAppendingString:@"/dice1"]]) {
+        //没有筛子图片时，创建筛子图片
         MIDiceMaker *diceMaker = [MIDiceMaker instance];
         diceMaker.size = self.diceSize * 2;
         [diceMaker makeDice];
@@ -54,7 +55,7 @@
     
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_group_t group = dispatch_group_create();
-    //Sava gray values
+    //Save gray values
     NSMutableDictionary *grayData = [[NSMutableDictionary alloc] init];
     
     NSInteger threadCount   = 4;
@@ -100,7 +101,11 @@
 
 }
 
-- (CGFloat)averageGrayFromImageView:(UIImageView *)imageView xIndex:(NSInteger)xIndex yIndex:(NSInteger)yIndex size:(NSInteger)size {
+//计算划分的图片小块的平均灰度值
+- (CGFloat)averageGrayFromImageView:(UIImageView *)imageView
+                             xIndex:(NSInteger)xIndex
+                             yIndex:(NSInteger)yIndex
+                               size:(NSInteger)size {
     CGFloat sum = 0;
     for (NSInteger y = yIndex * size; y < yIndex * size + size; y++) {
         for (NSInteger x = xIndex * size; x < xIndex * size + size; x++) {
@@ -113,6 +118,7 @@
     return sum / size / size;
 }
 
+//计算UIColor灰度值
 - (CGFloat)grayFromColor:(UIColor *)color {
     CGColorRef colorRef = color.CGColor;
     if (CGColorGetNumberOfComponents(colorRef) == 4) {
@@ -126,6 +132,7 @@
     return 0;
 }
 
+//由灰度值分配筛子点数
 - (NSInteger)getDiceIndexWithGray:(NSInteger)gary {
     if (gary < 0 || gary > 247) return 6;
     

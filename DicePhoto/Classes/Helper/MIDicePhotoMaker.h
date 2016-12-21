@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 typedef enum : NSUInteger {
-    HighQuality = 4,
-    LowQuality  = 8
-} DiceImageQuality;
+    HighQuality = 4,    //高
+    LowQuality  = 8     //低
+} DiceImageQuality;     //图片质量
 
 @protocol DicePhotoMakerDelegate <NSObject>
 
