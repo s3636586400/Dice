@@ -111,6 +111,8 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary<NSString *,id> *)editingInfo {
     _mainImageView.image = image;
     [_imagePicker dismissViewControllerAnimated:YES completion:nil];
+    self.navigationItem.rightBarButtonItem.title = @"生成";
+    self.navigationItem.rightBarButtonItem.tag = !self.navigationItem.rightBarButtonItem.tag;
 }
 
 - (void)didReceiveMemoryWarning {
