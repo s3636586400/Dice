@@ -16,6 +16,7 @@
     dispatch_once(&onceToken, ^{
         instance = [[MIDiceMaker alloc] init];
     });
+    //11
     return instance;
 }
 

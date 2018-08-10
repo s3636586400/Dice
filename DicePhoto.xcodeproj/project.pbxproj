@@ -125,9 +125,6 @@
 				41E35CC61D78190100C1962A /* Helper */,
 				41E35CC71D78190100C1962A /* Macro */,
 				41E35CBC1D7815AB00C1962A /* Controller */,
-				41E35CBD1D7815AB00C1962A /* Model */,
-				41E35CBE1D7815AB00C1962A /* View */,
-				41E35CBF1D7815AB00C1962A /* ViewModel */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -139,27 +136,6 @@
 				41E35CC41D78165100C1962A /* MIDiceController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		41E35CBD1D7815AB00C1962A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		41E35CBE1D7815AB00C1962A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		41E35CBF1D7815AB00C1962A /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		41E35CC61D78190100C1962A /* Helper */ = {

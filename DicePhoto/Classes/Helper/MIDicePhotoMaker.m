@@ -25,6 +25,7 @@
 - (instancetype)init {
     self = [super init];
     self.quality  = HighQuality;
+    //111
     self.diceSize = 16;
     
     [self setDice];

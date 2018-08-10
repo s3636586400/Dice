@@ -18,6 +18,7 @@
     CGContextTranslateCTM(context, -point.x, -point.y);
     
     [self.layer renderInContext:context];
+    //11
     
     CGContextRelease(context);
     CGColorSpaceRelease(colorSpace);
