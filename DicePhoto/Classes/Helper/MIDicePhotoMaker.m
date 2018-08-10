@@ -98,6 +98,7 @@
         }
         UIImage *diceImage = UIGraphicsGetImageFromCurrentImageContext();
         [self.delegate receiveDicePhotoImage:diceImage];
+        //Test Dev Branch
     });
 
 }
